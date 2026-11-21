@@ -10,6 +10,7 @@ import { site, socials } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import { Logo } from "./logo";
 import { ButtonLink } from "@/components/ui/button";
+import PillNav from "@/components/ui/pill-nav";
 
 export function Header() {
   const pathname = usePathname();
@@ -60,30 +61,17 @@ export function Header() {
         <div className="shell grid h-[84px] grid-cols-[1fr_auto] items-center gap-6 lg:h-[92px] lg:grid-cols-[1fr_auto_1fr]">
           <Logo className="justify-self-start" />
 
-          <nav
-            aria-label="Primary"
-            className="hidden items-center gap-7 justify-self-center lg:flex"
-          >
-            {mainNav.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                aria-current={isActive(item.href) ? "page" : undefined}
-                className={cn(
-                  "group relative py-2 text-[0.8125rem] font-body fw-medium tracking-tight transition-colors duration-300",
-                  isActive(item.href) ? "text-ink" : "text-muted hover:text-ink",
-                )}
-              >
-                {item.label}
-                <span
-                  className={cn(
-                    "absolute inset-x-0 -bottom-0.5 h-px origin-left bg-ink transition-transform duration-500 ease-out-expo",
-                    isActive(item.href) ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100",
-                  )}
-                />
-              </Link>
-            ))}
-          </nav>
+          <PillNav
+            items={mainNav.map((item) => ({ label: item.label, href: item.href }))}
+            activeHref={pathname}
+            itemStyle="pill"
+            hoverEffect="fill"
+            indicator="dot"
+            surface="solid"
+            collapse="never"
+            size="md"
+            ariaLabel="Primary navigation"
+          />
 
           <div className="flex items-center justify-self-end gap-2">
             <Link
