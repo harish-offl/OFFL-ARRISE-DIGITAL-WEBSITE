@@ -41,20 +41,14 @@ export const contactSchema = z.object({
       (value) => !value || /^(https?:\/\/)?[\w-]+(\.[\w-]+)+.*$/i.test(value),
       "Enter a valid website or social profile URL.",
     ),
-  service: z.enum(serviceOptions, {
-    errorMap: () => ({ message: "Please choose the service you need." }),
-  }),
-  budget: z.enum(budgetOptions, {
-    errorMap: () => ({ message: "Please select an estimated budget." }),
-  }),
+  service: z.enum(serviceOptions),
+  budget: z.enum(budgetOptions),
   description: z
     .string()
     .trim()
     .min(30, "Tell us a little more — at least 30 characters.")
     .max(3000, "Please keep your description under 3000 characters."),
-  preferredContact: z.enum(contactOptions, {
-    errorMap: () => ({ message: "Choose how you'd like us to reach you." }),
-  }),
+  preferredContact: z.enum(contactOptions),
   company_website_confirm: z.string().max(0).optional(),
 });
 
