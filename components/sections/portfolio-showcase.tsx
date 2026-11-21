@@ -62,23 +62,13 @@ export function PortfolioShowcase() {
             bring ideas to life.
           </p>
 
-          <div className="grid gap-4 md:grid-cols-3 md:gap-6 text-center md:text-left">
-            <div className="p-6 rounded-xl border border-line bg-surface">
-              <span className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-muted block mb-2">
-                Client Projects
-              </span>
-              <span className="font-display text-2xl font-bold tracking-tight text-ink">
-                {clientCount}
-              </span>
-            </div>
-            <div className="p-6 rounded-xl border border-line bg-surface">
-              <span className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-muted block mb-2">
-                Creative Collaborations
-              </span>
-              <span className="font-display text-2xl font-bold tracking-tight text-ink">
-                {collabCount}
-              </span>
-            </div>
+          <div className="p-6 rounded-xl border border-line bg-surface">
+            <span className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-muted block mb-2">
+              Client Projects
+            </span>
+            <span className="font-display text-2xl font-bold tracking-tight text-ink">
+              {clientCount}
+            </span>
           </div>
         </div>
       </section>
