@@ -1,0 +1,335 @@
+
+> arrise-digital@1.0.0 dev
+> next dev -p 2025
+
+   ▲ Next.js 15.5.29
+   - Local:        http://localhost:2025
+   - Network:      http://10.30.250.47:2025
+
+ ✓ Starting...
+ ✓ Ready in 3.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.7s (1563 modules)
+ GET / 200 in 3213ms
+ GET / 200 in 710ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 611ms (906 modules)
+ GET /icon.svg?412cbe00bb25ca49 200 in 875ms
+ GET / 200 in 1551ms
+ GET / 200 in 867ms
+ GET /icon.svg?412cbe00bb25ca49 200 in 55ms
+ GET / 200 in 838ms
+ GET /icon.svg?412cbe00bb25ca49 200 in 23ms
+ ✓ Compiled in 3.2s (688 modules)
+ ✓ Compiled in 432ms (688 modules)
+ ✓ Compiled in 1770ms (1577 modules)
+ ✓ Compiled in 1617ms (1577 modules)
+ ✓ Compiled in 1354ms (1577 modules)
+ ✓ Compiled in 1729ms (1577 modules)
+ ✓ Compiled in 1375ms (1577 modules)
+ ✓ Compiled in 1261ms (1577 modules)
+ ✓ Compiled in 1662ms (1577 modules)
+ ✓ Compiled in 1618ms (1577 modules)
+ ✓ Compiled in 1771ms (1577 modules)
+ ✓ Compiled in 1639ms (1577 modules)
+ ✓ Compiled in 636ms (1577 modules)
+ ✓ Compiled in 1211ms (1577 modules)
+ ✓ Compiled in 752ms (1577 modules)
+ ✓ Compiled in 686ms (1577 modules)
+ ✓ Compiled in 644ms (1577 modules)
+ ✓ Compiled in 537ms (1577 modules)
+ ✓ Compiled in 713ms (1577 modules)
+ ✓ Compiled in 628ms (1577 modules)
+ ✓ Compiled in 776ms (1577 modules)
+ ✓ Compiled in 589ms (1577 modules)
+ ✓ Compiled in 983ms (1577 modules)
+ ✓ Compiled in 756ms (1577 modules)
+ ✓ Compiled in 609ms (1577 modules)
+ ✓ Compiled in 599ms (1577 modules)
+ ✓ Compiled in 554ms (1577 modules)
+ ✓ Compiled in 658ms (1577 modules)
+ ✓ Compiled in 891ms (1577 modules)
+ ✓ Compiled in 602ms (1577 modules)
+ ✓ Compiled in 767ms (1577 modules)
+ ✓ Compiled in 570ms (1577 modules)
+ ✓ Compiled in 1169ms (1579 modules)
+ ✓ Compiled in 817ms (1575 modules)
+ ✓ Compiled in 384ms (687 modules)
+ ✓ Compiled in 281ms (687 modules)
+ ✓ Compiled in 379ms (687 modules)
+ ✓ Compiled in 617ms (687 modules)
+ ✓ Compiled in 329ms (687 modules)
+ ✓ Compiled in 389ms (687 modules)
+ ✓ Compiled in 294ms (687 modules)
+ ✓ Compiled in 314ms (687 modules)
+ ✓ Compiled in 365ms (687 modules)
+ ✓ Compiled in 1713ms (1575 modules)
+ GET / 200 in 2172ms
+ GET / 200 in 1155ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 521ms (905 modules)
+ GET /icon.svg?412cbe00bb25ca49 200 in 898ms
+ ✓ Compiled in 1120ms (1575 modules)
+ ✓ Compiled in 1275ms (1575 modules)
+ GET / 200 in 2136ms
+ ✓ Compiled /icon.svg in 295ms (905 modules)
+ GET /icon.svg?412cbe00bb25ca49 200 in 595ms
+ GET / 200 in 2064ms
+ GET /icon.svg?412cbe00bb25ca49 200 in 39ms
+ ✓ Compiled in 2.2s (1575 modules)
+ GET / 200 in 2046ms
+ ✓ Compiled /icon.svg in 335ms (905 modules)
+ GET /icon.svg?412cbe00bb25ca49 200 in 602ms
+ GET / 200 in 2140ms
+ GET /icon.svg?412cbe00bb25ca49 200 in 28ms
+ ✓ Compiled in 1896ms (1575 modules)
+ ✓ Compiled in 732ms (1575 modules)
+ GET / 200 in 2275ms
+ ✓ Compiled /icon.svg in 429ms (905 modules)
+ GET /icon.svg?412cbe00bb25ca49 200 in 751ms
+ GET / 200 in 1718ms
+ GET /icon.svg?412cbe00bb25ca49 200 in 33ms
+ ⨯ app\layout.tsx
+`next/font` error:
+Unknown weight `36` for font `Bricolage Grotesque`.
+Available weights: `200`, `300`, `400`, `500`, `600`, `700`, `800`, `variable`
+ ⨯ app\layout.tsx
+`next/font` error:
+Unknown weight `36` for font `Bricolage Grotesque`.
+Available weights: `200`, `300`, `400`, `500`, `600`, `700`, `800`, `variable`
+ ✓ Compiled in 2.1s (1587 modules)
+ ✓ Compiled in 1115ms (1578 modules)
+ ✓ Compiled in 1425ms (1611 modules)
+ ✓ Compiled in 624ms (1584 modules)
+ ✓ Compiled in 1611ms (1584 modules)
+ ⨯ ./app/globals.css:175:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 173 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 174 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 175 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 176 | [39m
+ [90m 177 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ✓ Compiled in 434ms (891 modules)
+ ✓ Compiled in 271ms (891 modules)
+ ✓ Compiled in 347ms (891 modules)
+ ✓ Compiled in 264ms (891 modules)
+ ✓ Compiled in 273ms (891 modules)
+ ✓ Compiled in 273ms (891 modules)
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ⨯ ./app/globals.css:180:1
+Syntax error: C:\Users\annam\OneDrive\Desktop\PROJECT\SAAS OF ARRISE\ARRISE - WEBSITE\app\globals.css Unexpected }
+
+ [90m 178 | [39m    font[33m:[39m inherit[33m;[39m
+ [90m 179 | [39m  [33m}[39m
+[1m[31m>[39m[22m[90m 180 | [39m[33m}[39m
+ [90m     | [39m[1m[31m^[39m[22m
+ [90m 181 | [39m
+ [90m 182 | [39m[36m@layer[39m components [33m{[39m
+ ✓ Compiled in 1370ms (1584 modules)
+ ✓ Compiled in 501ms (1584 modules)
+ ✓ Compiled in 503ms (1584 modules)
+ ✓ Compiled in 788ms (1584 modules)
+ ✓ Compiled in 657ms (1584 modules)
+ ✓ Compiled in 582ms (1584 modules)
+ ✓ Compiled in 657ms (1584 modules)
+ ✓ Compiled in 689ms (1584 modules)
+ ✓ Compiled in 642ms (1584 modules)
+ ✓ Compiled in 606ms (1584 modules)
+ ✓ Compiled in 935ms (1584 modules)
+ ✓ Compiled in 804ms (1584 modules)
+ ✓ Compiled in 798ms (1584 modules)
+ ✓ Compiled in 1103ms (1584 modules)
+ ✓ Compiled in 707ms (1584 modules)
+ ✓ Compiled in 711ms (1584 modules)
+ ✓ Compiled in 730ms (1584 modules)
+ ✓ Compiled in 693ms (1584 modules)
+ ✓ Compiled in 869ms (1584 modules)
+ ✓ Compiled in 882ms (1584 modules)
+ ✓ Compiled in 853ms (1584 modules)
+ ✓ Compiled in 1219ms (1584 modules)
+ ✓ Compiled in 1113ms (1584 modules)
+ ✓ Compiled in 838ms (1584 modules)
+ ✓ Compiled in 513ms (693 modules)
+ ✓ Compiled in 458ms (693 modules)
+ ✓ Compiled in 389ms (693 modules)
+ ✓ Compiled in 379ms (693 modules)
+ ✓ Compiled in 438ms (693 modules)
+ ✓ Compiled in 1223ms (693 modules)
+ ✓ Compiled in 631ms (693 modules)
+ ✓ Compiled in 903ms (693 modules)
+ ✓ Compiled in 434ms (693 modules)
+ ✓ Compiled in 904ms (1584 modules)
+ ✓ Compiled in 668ms (1584 modules)
+ ✓ Compiled in 1064ms (1584 modules)
+ ✓ Compiled in 496ms (693 modules)
+ ✓ Compiled in 438ms (693 modules)
+ ✓ Compiled in 473ms (693 modules)
+ ✓ Compiled in 414ms (693 modules)
+ ✓ Compiled in 382ms (693 modules)
+ ✓ Compiled in 859ms (1584 modules)
+ ✓ Compiled in 635ms (1584 modules)
+ ✓ Compiled in 634ms (1584 modules)
+ ✓ Compiled in 646ms (1584 modules)
+ ✓ Compiled in 865ms (1584 modules)
+ ✓ Compiled in 652ms (1584 modules)
+ ✓ Compiled in 647ms (1584 modules)
+ ✓ Compiled in 407ms (693 modules)
+ ✓ Compiled in 341ms (693 modules)
+ ✓ Compiled in 633ms (693 modules)
+ ✓ Compiled in 816ms (1584 modules)
+ ✓ Compiled in 1498ms (1584 modules)
+ ✓ Compiled in 1130ms (1584 modules)
