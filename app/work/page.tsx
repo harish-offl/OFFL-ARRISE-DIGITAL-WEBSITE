@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/layout/page-hero";
 import { PortfolioShowcase } from "@/components/sections/portfolio-showcase";
-import { clientProjects, collaborations } from "@/data/portfolio";
+import { clientProjects, collaborations, portfolioCategories } from "@/data/portfolio";
 
 export const metadata: Metadata = {
   title: "Selected Work & Client Projects | Arrise Digital",
@@ -20,7 +20,7 @@ export default function WorkPage() {
         meta={[
           { label: "Client Projects", value: String(clientProjects.length) },
           { label: "Creative Collaborations", value: String(collaborations.length) },
-          { label: "Disciplines", value: "6 categories" },
+          { label: "Disciplines", value: `${portfolioCategories.length - 1} categories` },
           { label: "Approach", value: "Creative + technical" },
         ]}
         breadcrumb="Work"

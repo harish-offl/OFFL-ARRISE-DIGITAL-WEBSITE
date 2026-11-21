@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { insights } from "@/data/insights";
-import { projects } from "@/data/projects";
+import { clientProjects } from "@/data/portfolio";
 import { services } from "@/data/services";
 import { site } from "@/lib/site";
 
@@ -27,11 +27,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const projectRoutes: MetadataRoute.Sitemap = projects.map((project) => ({
+  const projectRoutes: MetadataRoute.Sitemap = clientProjects.map((project) => ({
     url: `${base}/work/${project.slug}`,
     lastModified: now,
-    changeFrequency: "yearly",
-    priority: 0.6,
+    changeFrequency: "yearly" as const,
+    priority: 0.7,
   }));
 
   const insightRoutes: MetadataRoute.Sitemap = insights.map((insight) => ({
