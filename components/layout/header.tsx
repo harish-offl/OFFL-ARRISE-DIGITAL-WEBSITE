@@ -58,7 +58,7 @@ export function Header() {
             : "border-b border-transparent bg-transparent",
         )}
       >
-        <div className="shell grid h-[84px] grid-cols-[1fr_auto_1fr] items-center gap-6 lg:h-[92px]">
+        <div className="shell grid h-[84px] grid-cols-[1fr_auto_1fr] items-start gap-6 lg:h-[92px]">
           <div className="justify-self-start">
             <Logo />
           </div>
