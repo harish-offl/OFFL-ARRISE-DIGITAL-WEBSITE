@@ -67,12 +67,13 @@ export function Header() {
             <PillNav
               items={mainNav.map((item) => ({ label: item.label, href: item.href }))}
               activeHref={pathname}
-              itemStyle="pill"
-              hoverEffect="fill"
-              indicator="dot"
-              surface="solid"
+              itemStyle="plain"
+              hoverEffect="glide"
+              indicator="pill"
+              layout="joined"
+              bounce={0.84}
               collapse="never"
-              size="md"
+              intro={false}
               ariaLabel="Primary navigation"
             />
           </div>
