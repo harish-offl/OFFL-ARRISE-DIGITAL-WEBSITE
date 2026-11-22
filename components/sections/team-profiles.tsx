@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Mail } from "lucide-react";
+import { ArrowUpRight, ExternalLink, Mail, Phone } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { team } from "@/data/team";
 import { site } from "@/lib/site";
@@ -73,6 +73,28 @@ export function TeamProfiles() {
                     {member.description}
                   </p>
                   <div className="mt-8 flex flex-wrap items-center gap-3">
+                    {member.portfolio && (
+                      <a
+                        href={member.portfolio}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex h-11 items-center gap-2 rounded-full border border-ink/20 px-5 font-body text-[0.6875rem] fw-semibold uppercase tracking-[0.08em] text-ink transition-colors duration-500 ease-out-expo hover:border-ink"
+                      >
+                        Portfolio
+                        <ExternalLink className="size-3.5 transition-transform duration-500 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                      </a>
+                    )}
+                    {member.whatsapp && (
+                      <a
+                        href={`https://wa.me/${member.whatsapp}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex h-11 items-center gap-2 rounded-full border border-ink/20 px-5 font-body text-[0.6875rem] fw-semibold uppercase tracking-[0.08em] text-ink transition-colors duration-500 ease-out-expo hover:border-ink"
+                      >
+                        WhatsApp
+                        <Phone className="size-3.5 transition-transform duration-500 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                      </a>
+                    )}
                     <a
                       href={`mailto:${site.email}`}
                       className="inline-flex h-11 items-center gap-2 rounded-full bg-night px-5 font-body text-[0.6875rem] fw-semibold uppercase tracking-[0.08em] text-white transition-colors duration-500 ease-out-expo hover:bg-lime hover:text-[#0D0D0D]"
