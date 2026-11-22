@@ -174,7 +174,7 @@ export const projects: Project[] = [
     outcome:
       "A professional online presence that presents projects clearly and gives buyers a trusted path from browsing to enquiring.",
     featured: false,
-    monogram: "UC",
+    monogram: "URS",
     palette: { base: "#132A3A", tint: "#1D3E52", accent: "#B08954", ink: "#FFFFFF" },
     gallery: [
       { label: "Identity", caption: "A trustworthy real estate brand direction." },
