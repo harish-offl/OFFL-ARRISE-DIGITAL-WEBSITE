@@ -119,7 +119,7 @@ export function Footer() {
         <div className="mt-8 flex flex-col gap-5 border-t border-white/10 pt-6 md:flex-row md:items-center md:justify-between">
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2 font-mono text-[0.6875rem] text-white/40">
             <span>
-              © {new Date().getFullYear()} {site.name}. All rights reserved.
+              © 2025 {site.name}. All rights reserved.
             </span>
             {footerNav.legal.map((item) => (
               <Link key={item.href} href={item.href} className="link-underline hover:text-white/70">

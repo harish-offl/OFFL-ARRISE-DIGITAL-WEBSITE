@@ -34,7 +34,8 @@ export function TeamProfiles() {
                         alt={member.imageAlt ?? member.name}
                         fill
                         sizes="(min-width: 1024px) 30vw, (min-width: 640px) 60vw, 100vw"
-                        className="object-cover object-top transition-transform duration-[1.2s] ease-out-expo group-hover:scale-[1.03]"
+                        style={{ objectPosition: member.imagePosition ?? "center top" }}
+                        className="object-cover transition-transform duration-[1.2s] ease-out-expo group-hover:scale-[1.03]"
                       />
                     ) : (
                       <div className="absolute inset-0 flex items-center justify-center overflow-hidden bg-[#EFEBE2]">

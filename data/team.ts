@@ -7,6 +7,7 @@ export type TeamMember = {
   initials: string;
   image?: string;
   imageAlt?: string;
+  imagePosition?: string;
   portfolio?: string;
   whatsapp?: string;
 };
@@ -31,8 +32,9 @@ export const team: TeamMember[] = [
     description:
       "Owns new partnerships and client relationships end-to-end — turning every conversation into long-term, measurable growth.",
     initials: "MA",
-    image: "/images/team/annamalai.png",
+    image: "/images/team/annamalai.jpeg",
     imageAlt: "Portrait of M. RM Annamalai",
+    imagePosition: "center 70%",
     portfolio: "https://connectwithannamalai.vercel.app/",
     whatsapp: "919363973591",
   },

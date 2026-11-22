@@ -25,6 +25,7 @@ export const footerNav = {
     { label: "AI Automation", href: "/services/ai-automation" },
   ],
   legal: [
+    { label: "FAQ", href: "/faq" },
     { label: "Privacy Policy", href: "/privacy-policy" },
     { label: "Terms & Conditions", href: "/terms" },
   ],
