@@ -158,6 +158,30 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "urs-choice-madurai",
+    title: "URS Choice Madurai",
+    client: "URS Choice Madurai",
+    industry: "Real Estate",
+    categories: ["Branding", "Websites"],
+    services: ["Brand identity direction", "Website design & build"],
+    tagline: "A real estate presence built for trust.",
+    overview:
+      "URS Choice Madurai is a real estate brand that needed a credible digital presence to showcase properties and earn buyer confidence in a competitive market.",
+    challenge:
+      "Real estate buyers research extensively before enquiring. The brand had no structured online presence to list projects, share details, or route serious enquiries.",
+    solution:
+      "We built a clean, property-focused website with clear project listings, property detail pages, and a straightforward enquiry flow that directs interest to the right team.",
+    outcome:
+      "A professional online presence that presents projects clearly and gives buyers a trusted path from browsing to enquiring.",
+    featured: false,
+    monogram: "UC",
+    palette: { base: "#132A3A", tint: "#1D3E52", accent: "#B08954", ink: "#FFFFFF" },
+    gallery: [
+      { label: "Identity", caption: "A trustworthy real estate brand direction." },
+      { label: "Web", caption: "A property-focused website with clear enquiry paths." },
+    ],
+  },
+  {
     slug: "dhiya-garments",
     title: "Dhiya Garments",
     client: "Dhiya Garments",
