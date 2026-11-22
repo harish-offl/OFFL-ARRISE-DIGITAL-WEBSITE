@@ -52,13 +52,13 @@ export function Header() {
     <>
       <header
         className={cn(
-          "fixed inset-x-0 top-0 z-[120] transition-all duration-500 ease-out-expo",
+          "fixed inset-x-0 top-0 top-[env(safe-area-inset-top)] z-[120] transition-all duration-500 ease-out-expo",
           scrolled
             ? "border-b border-line bg-paper/90 backdrop-blur-xl"
             : "border-b border-transparent bg-transparent",
         )}
       >
-        <div className="shell grid h-[84px] grid-cols-[1fr_auto_1fr] items-start gap-6 lg:h-[92px]">
+        <div className="shell grid h-[84px] grid-cols-[1fr_auto_1fr] items-start gap-6 lg:h-[92px] pt-[env(safe-area-inset-top)] lg:pt-6">
           <div className="justify-self-start">
             <Logo />
           </div>
