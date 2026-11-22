@@ -40,7 +40,7 @@ const config: Config = {
       },
       spacing: {
         gutter: "clamp(1.25rem, 4vw, 4.5rem)",
-        section: "clamp(4.5rem, 10vw, 9rem)",
+        section: "clamp(3rem, 8vw, 6rem)",
       },
       transitionTimingFunction: {
         "out-expo": "cubic-bezier(0.16, 1, 0.3, 1)",

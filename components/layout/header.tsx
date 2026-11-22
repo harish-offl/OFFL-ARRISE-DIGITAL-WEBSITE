@@ -58,25 +58,29 @@ export function Header() {
             : "border-b border-transparent bg-transparent",
         )}
       >
-        <div className="shell grid h-[84px] grid-cols-[1fr_auto] items-center gap-6 lg:h-[92px] lg:grid-cols-[1fr_auto_1fr]">
-          <Logo className="justify-self-start" />
+        <div className="shell grid h-[84px] grid-cols-[1fr_auto_1fr] items-center gap-6 lg:h-[92px]">
+          <div className="justify-self-start">
+            <Logo />
+          </div>
 
-          <PillNav
-            items={mainNav.map((item) => ({ label: item.label, href: item.href }))}
-            activeHref={pathname}
-            itemStyle="pill"
-            hoverEffect="fill"
-            indicator="dot"
-            surface="solid"
-            collapse="never"
-            size="md"
-            ariaLabel="Primary navigation"
-          />
+          <div className="hidden lg:flex items-center justify-self-center gap-8">
+            <PillNav
+              items={mainNav.map((item) => ({ label: item.label, href: item.href }))}
+              activeHref={pathname}
+              itemStyle="pill"
+              hoverEffect="fill"
+              indicator="dot"
+              surface="solid"
+              collapse="never"
+              size="md"
+              ariaLabel="Primary navigation"
+            />
+          </div>
 
-          <div className="flex items-center justify-self-end gap-2">
+          <div className="justify-self-end flex items-center gap-2">
             <Link
               href="/contact"
-              className="group hidden h-12 items-center gap-3 rounded-full bg-night pl-5 pr-4 font-body text-[0.75rem] fw-semibold uppercase tracking-[0.08em] text-white transition-all duration-500 ease-out-expo hover:bg-lime hover:text-[#0D0D0D] sm:inline-flex"
+              className="hidden sm:inline-flex h-12 items-center gap-3 rounded-full bg-night pl-5 pr-4 font-body text-[0.75rem] fw-semibold uppercase tracking-[0.08em] text-white transition-all duration-500 ease-out-expo hover:bg-lime hover:text-[#0D0D0D]"
             >
               <span>Get a quote</span>
               <ArrowUpRight className="size-4 transition-transform duration-500 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />

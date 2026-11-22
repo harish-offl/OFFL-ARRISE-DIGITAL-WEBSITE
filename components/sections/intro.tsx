@@ -65,12 +65,12 @@ export function Intro() {
         <div className="mt-14 grid border-y border-line md:mt-20 md:grid-cols-3 md:divide-x md:divide-line">
           {principles.map((principle, index) => (
             <Reveal key={principle.number} delay={index * 0.08}>
-              <div className="group relative flex h-full flex-col justify-between gap-8 border-b border-line px-0 py-7 transition-colors duration-500 last:border-b-0 md:border-b-0 md:px-7 md:py-9 md:first:pl-0 md:last:pr-0">
+              <div className="group relative flex h-full flex-col justify-between gap-6 border-b border-line px-4 py-6 transition-colors duration-500 last:border-b-0 md:border-b-0 md:px-7 md:py-9 md:first:pl-0 md:last:pr-0 sm:px-6">
                 <span className="font-mono text-[0.625rem] tracking-[0.2em] text-muted">
                   {principle.number}
                 </span>
                 <div>
-                  <h3 className="font-display text-xl font-medium tracking-[-0.02em] text-ink">
+                  <h3 className="font-display text-[clamp(1.1rem,2.4vw,1.25rem)] font-medium tracking-[-0.02em] text-ink sm:text-xl">
                     {principle.title}
                   </h3>
                   <p className="mt-2 max-w-xs font-body text-sm leading-relaxed text-muted">
@@ -79,7 +79,7 @@ export function Intro() {
                 </div>
                 <span
                   aria-hidden="true"
-                  className="absolute right-0 top-0 size-1.5 rounded-full bg-lime opacity-0 transition-opacity duration-500 group-hover:opacity-100 md:right-7"
+                  className="absolute right-4 top-0 size-1.5 rounded-full bg-lime opacity-0 transition-opacity duration-500 group-hover:opacity-100 md:right-7"
                 />
               </div>
             </Reveal>
