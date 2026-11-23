@@ -35,7 +35,7 @@ export default function TeamClient() {
         </h1>
         <p className="max-w-xl font-body text-[0.9375rem] leading-relaxed text-muted mb-10">
           Upload a portrait for each team member. Images are stored in Supabase Storage under the
-          <code className="font-mono text-xs bg-night/10 px-1.5 py-0.5 rounded">team/</code> folder. Copy the
+          <code className="font-mono text-xs bg-night/10 px-1.5 py-0.5 rounded">team images/</code> folder. Copy the
           returned URL into <code className="font-mono text-xs bg-night/10 px-1.5 py-0.5 rounded">data/team.ts</code>.
         </p>
 
@@ -69,7 +69,7 @@ export default function TeamClient() {
 
               <ImageUpload
                 value={urls[member.id] ? [urls[member.id]] : []}
-                folder="team"
+          folder="team images"
                 onUpload={handleUpload(member.id)}
                 onRemove={() => {
                   setUrls((prev) => {
