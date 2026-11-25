@@ -23,12 +23,12 @@ export const team: TeamMember[] = [
     initials: "ROJITH",
     image: "/images/team/ram-rojith.jpeg",
     imageAlt: "Portrait of V. Ram Rojith",
-    whatsapp: "919363973591",
+    whatsapp: "917305115192",
   },
   {
     id: "annamalai",
     number: "02",
-    name: "M. RM Annamalai",
+    name: "M. RM. Annamalai",
     designation: "Business Development & Client Management",
     description:
       "Owns new partnerships and client relationships end-to-end — turning every conversation into long-term, measurable growth.",
@@ -49,18 +49,18 @@ export const team: TeamMember[] = [
     initials: "VISWANATH",
     image: "/images/team/ram-viswanath.png",
     imageAlt: "Portrait of V. Ram Viswanath",
-    whatsapp: "919363973591",
+    whatsapp: "918056353850",
   },
   {
     id: "harish-raj",
     number: "04",
-    name: "Harish Raj V",
+    name: "V. Harish Raj ",
     designation: "Operations & Finance Management",
     description:
       "Keeps the engine running — budgets, timelines and processes — ensuring every project ships on time and on target.",
     initials: "HARISH",
     image: "/images/team/harish-raj.png",
     imageAlt: "Portrait of Harish Raj V",
-    whatsapp: "919363973591",
+    whatsapp: "918438104719",
   },
 ];

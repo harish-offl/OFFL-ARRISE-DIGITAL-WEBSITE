@@ -1,11 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowUpRight, Check, X } from "lucide-react";
+import { Check, X } from "lucide-react";
 import { saasProducts, type SaasProduct } from "@/data/saas-products";
 import { ButtonLink } from "@/components/ui/button";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
+import { ChromaGrid, type ChromaItem } from "@/components/ui/chroma-grid";
 
 const approach = [
   {
@@ -38,6 +39,18 @@ const stages = [
 
 export function SaasShowcase() {
   const [selected, setSelected] = useState<SaasProduct | null>(null);
+  const productCards: ChromaItem[] = saasProducts.map((product) => ({
+    id: product.name,
+    monogram: product.number,
+    title: product.name,
+    subtitle: product.category,
+    badge: product.status,
+    tags: product.features.slice(0, 3),
+    cta: "Explore product",
+    meta: `${product.features.length} planned features`,
+    accent: product.accent,
+    onSelect: () => setSelected(product),
+  }));
 
   return (
     <>
@@ -49,15 +62,18 @@ export function SaasShowcase() {
             description="Six software products in development, each built around a problem worth solving."
           />
 
-          <div className="mt-12 grid gap-px overflow-hidden border border-line bg-line md:grid-cols-2 lg:grid-cols-3">
-            {saasProducts.map((product, index) => (
-              <ProductCard
-                key={product.name}
-                product={product}
-                index={index}
-                onOpen={setSelected}
-              />
-            ))}
+          <div className="mt-12">
+            <ChromaGrid
+              items={productCards}
+              columns={3}
+              minCardWidth={260}
+              gap={24}
+              cardRadius={24}
+              aspectRatio="3 / 2"
+              reveal="spotlight"
+              theme="dark"
+              aria-label="Arrise Digital SaaS products"
+            />
           </div>
         </div>
       </section>
@@ -175,56 +191,3 @@ export function SaasShowcase() {
   );
 }
 
-function ProductCard({
-  product,
-  index,
-  onOpen,
-}: {
-  product: SaasProduct;
-  index: number;
-  onOpen: (product: SaasProduct) => void;
-}) {
-  const Icon = product.icon;
-
-  return (
-    <Reveal delay={index * 0.06} className="h-full">
-      <article className="group flex h-full flex-col justify-between bg-paper p-6 transition-colors duration-500 hover:bg-[#F0F0ED] md:p-7">
-        <div>
-          <div className="flex items-start justify-between">
-            <div className="grid size-12 place-items-center border border-line bg-night text-lime transition-colors duration-500 group-hover:bg-lime group-hover:text-night">
-              <Icon className="size-5" />
-            </div>
-            <span className="font-mono text-[0.625rem] tracking-[0.18em] text-muted">
-              {product.number}
-            </span>
-          </div>
-
-          <div className="mt-8">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="font-mono text-[0.5625rem] uppercase tracking-[0.16em] text-lime">
-                {product.status}
-              </span>
-              <span className="size-1 rounded-full bg-line" />
-              <span className="font-mono text-[0.5625rem] uppercase tracking-[0.16em] text-muted">
-                {product.category}
-              </span>
-            </div>
-            <h3 className="mt-4 font-display text-[clamp(1.35rem,2.2vw,1.75rem)] font-medium leading-tight tracking-[-0.025em] text-ink">
-              {product.name}
-            </h3>
-            <p className="mt-3 text-sm leading-relaxed text-muted">{product.description}</p>
-          </div>
-        </div>
-
-        <button
-          type="button"
-          onClick={() => onOpen(product)}
-          className="group/link mt-8 inline-flex items-center gap-2 self-start text-sm font-medium"
-        >
-          Learn More
-          <ArrowUpRight className="size-4 transition-transform duration-500 group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5" />
-        </button>
-      </article>
-    </Reveal>
-  );
-}

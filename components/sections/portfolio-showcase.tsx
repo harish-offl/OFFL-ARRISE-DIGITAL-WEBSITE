@@ -192,10 +192,11 @@ export function PortfolioShowcase() {
       {/* Section D — Final CTA */}
       <section className="relative py-16 md:py-24 overflow-hidden">
         <div className="shell relative z-10">
-          <div className="max-w-[60ch] mx-auto text-center">
+          <div className="mx-auto max-w-5xl text-center">
             <span className="eyebrow mb-6 block text-lime">Ready to work together?</span>
-            <h2 className="font-display text-[clamp(2.5rem,7vw,5rem)] fw-bold leading-[1.05] tracking-[-0.04em] text-ink mb-6 md:mb-8">
-              Your Brand Could Be Our Next Project.
+            <h2 className="mx-auto max-w-5xl font-display text-[clamp(2.5rem,7vw,5rem)] fw-bold leading-[1.05] tracking-[-0.04em] text-ink mb-6 md:mb-8">
+              <span className="block">Your Brand Could Be</span>
+              <span className="block">Our Next Project.</span>
             </h2>
             <p className="font-body text-[clamp(1rem,1.5vw,1.125rem)] leading-relaxed text-muted max-w-[48ch] mx-auto mb-10 md:mb-12">
               Have an idea, a business, or a brand ready to grow? Let&apos;s
