@@ -1,56 +1,15 @@
 import type { Metadata, Viewport } from "next";
-import {
-  Bricolage_Grotesque,
-  Inter,
-  IBM_Plex_Mono,
-  Instrument_Serif,
-  Manrope,
-  Space_Grotesk,
-} from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { ScrollProgress } from "@/components/ui/scroll-progress";
 import { site, socials } from "@/lib/site";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin"],
-  variable: "--font-space-grotesk",
-  display: "swap",
-});
-
-const bricolageGrotesque = Bricolage_Grotesque({
-  subsets: ["latin"],
-  weight: ["200", "300", "400", "500", "600", "700", "800"],
+const bricolageGrotesque = localFont({
+  src: "../public/fonts/BricolageGrotesque-Variable.ttf",
+  weight: "200 800",
   variable: "--font-bricolage-grotesque",
-  display: "swap",
-});
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  weight: ["400", "500"],
-  variable: "--font-manrope",
-  display: "swap",
-});
-
-const ibmPlexMono = IBM_Plex_Mono({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  variable: "--font-ibm-plex-mono",
-  display: "swap",
-});
-
-const instrumentSerif = Instrument_Serif({
-  subsets: ["latin"],
-  weight: "400",
-  style: ["normal", "italic"],
-  variable: "--font-instrument-serif",
   display: "swap",
 });
 
@@ -147,8 +106,8 @@ const structuredData = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable} ${bricolageGrotesque.variable} ${manrope.variable} ${ibmPlexMono.variable} ${instrumentSerif.variable}`}>
-      <body className="bg-paper text-ink antialiased">
+    <html lang="en" className={`${bricolageGrotesque.variable} ${bricolageGrotesque.className}`}>
+      <body className={`${bricolageGrotesque.className} bg-paper text-ink antialiased`}>
         <a
           href="#main"
           className="sr-only z-[500] rounded-full bg-lime px-5 py-3 text-sm text-[#140A04] focus:not-sr-only focus:fixed focus:left-4 focus:top-4"

@@ -20,9 +20,10 @@ export const team: TeamMember[] = [
     designation: "Managing Director",
     description:
       "Leads the agency's vision and strategy — steering every engagement with a growth-first mindset and a relentless focus on client success.",
-    initials: "RR",
+    initials: "ROJITH",
     image: "/images/team/ram-rojith.jpeg",
     imageAlt: "Portrait of V. Ram Rojith",
+    whatsapp: "919363973591",
   },
   {
     id: "annamalai",
@@ -31,7 +32,7 @@ export const team: TeamMember[] = [
     designation: "Business Development & Client Management",
     description:
       "Owns new partnerships and client relationships end-to-end — turning every conversation into long-term, measurable growth.",
-    initials: "MA",
+    initials: "ANNA",
     image: "/images/team/annamalai.jpeg",
     imageAlt: "Portrait of M. RM Annamalai",
     imagePosition: "center 70%",
@@ -45,9 +46,10 @@ export const team: TeamMember[] = [
     designation: "Creative Director",
     description:
       "Leads creative strategy and brand storytelling — crafting visuals and narratives that captivate audiences and drive engagement.",
-    initials: "VR",
+    initials: "VISWANATH",
     image: "/images/team/ram-viswanath.png",
     imageAlt: "Portrait of V. Ram Viswanath",
+    whatsapp: "919363973591",
   },
   {
     id: "harish-raj",
@@ -56,8 +58,9 @@ export const team: TeamMember[] = [
     designation: "Operations & Finance Management",
     description:
       "Keeps the engine running — budgets, timelines and processes — ensuring every project ships on time and on target.",
-    initials: "HR",
+    initials: "HARISH",
     image: "/images/team/harish-raj.png",
     imageAlt: "Portrait of Harish Raj V",
+    whatsapp: "919363973591",
   },
 ];

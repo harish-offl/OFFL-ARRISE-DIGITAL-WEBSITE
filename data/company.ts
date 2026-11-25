@@ -101,7 +101,7 @@ export type Stat =
 
 export const stats: Stat[] = [
   { value: 15, suffix: "M+", label: "Video views generated" },
-  { value: 6, suffix: "+", label: "Brands partnered with" },
+  { value: 10, suffix: "+", label: "Brands partnered with" },
   { value: 4, suffix: "", label: "Core service categories" },
   { display: "3h → 20m", label: "Daily follow-up time in a demonstrated workflow" },
 ];

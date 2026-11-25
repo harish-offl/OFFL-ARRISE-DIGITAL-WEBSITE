@@ -96,7 +96,7 @@ export async function POST(request: Request) {
   ];
 
   const html = `
-    <div style="font-family:Inter,Arial,sans-serif;color:#111;max-width:640px;margin:0 auto;padding:24px">
+    <div style="font-family:'Bricolage Grotesque',Arial,sans-serif;color:#111;max-width:640px;margin:0 auto;padding:24px">
       <p style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#777;margin:0 0 8px">New project enquiry</p>
       <h1 style="font-size:26px;line-height:1.2;margin:0 0 24px">${escapeHtml(data.fullName)} — ${escapeHtml(data.service)}</h1>
       <table style="width:100%;border-collapse:collapse;font-size:14px">
